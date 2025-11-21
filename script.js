@@ -7,7 +7,7 @@ return dateString;
 function Moon(type) {
 	if (type == "Gold") {
 		var var29 = parseInt(document.getElementById("moonTime").value);
-		var var28 = math.floor((var29 - (-1800)) / 10800) * 10800;
+		var var28 = Math.floor((var29 - (-1800)) / 10800) * 10800;
 		var var27 = new PCGRandom(var28).nextInt(1,100);
 		while (var27 > 5) {
 			var28 = Math.floor((var29 - (-1800)) / 10800) * 10800;
