@@ -36,5 +36,5 @@ function Moon(type) {
     }
   }
 }
-document.getElementById("calcButtonBlood").addEventListener("click",Moon("Blood"));
-document.getElementById("calcButtonGold").addEventListener("click",Moon("Gold"));
+document.getElementById("calcButtonBlood").addEventListener("click", Moon("Blood"));
+document.getElementById("calcButtonGold").addEventListener("click", Moon("Gold"));
