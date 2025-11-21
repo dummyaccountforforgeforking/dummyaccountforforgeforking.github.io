@@ -15,7 +15,7 @@ function Moon(type) {
 			if (var27 <= 5) {
 				console.log(var27);
 				console.log(var29);
-				console.log(timeStampToDate(var29));
+				console.log(timeStampToDate(var29*1000));
       }
 			var29 = var29 + 10800;
     }
@@ -30,7 +30,7 @@ function Moon(type) {
 			if (var27 <= 15) {
 				console.log(var27);
 				console.log(var29);
-				console.log(timeStampToDate(var29));
+				console.log(timeStampToDate(var29*1000));
       }
 			var29 = var29 + 10800;
     }
