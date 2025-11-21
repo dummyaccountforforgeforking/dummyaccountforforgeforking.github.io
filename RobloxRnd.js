@@ -1,5 +1,5 @@
 class PCGRandom {
-  constructor(seed = Date.now()) {
+  constructor(seed) {
     this.state = BigInt(seed) || 0n;
     this.inc = 0x5851f42dn;
   }
