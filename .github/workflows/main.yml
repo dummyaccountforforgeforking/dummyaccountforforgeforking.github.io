@@ -20,7 +20,7 @@ jobs:
         id: deployment
         uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
         with:
-          path: main/.github/workflows/build_outputs/
+          path: main/ (root)/.github/workflows/build_outputs/
 
   # Deployment job
   deploy:
